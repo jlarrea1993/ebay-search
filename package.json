@@ -1,0 +1,26 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "Busquedad de pilas en ebay WebDriver.IO con framework Cucumber",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "wdio": "wdio run ./wdio.conf.js"
+  },
+  "keywords": [
+    "ebay",
+    "cucumber",
+    "webdriverio",
+    "javasrcript"
+  ],
+  "author": "juan pablo larrea",
+  "license": "ISC",
+  "devDependencies": {
+    "@wdio/cli": "^8.6.5",
+    "@wdio/cucumber-framework": "^8.6.2",
+    "@wdio/local-runner": "^8.6.3",
+    "@wdio/spec-reporter": "^8.4.0",
+    "chromedriver": "^111.0.0",
+    "wdio-chromedriver-service": "^8.1.1"
+  }
+}
